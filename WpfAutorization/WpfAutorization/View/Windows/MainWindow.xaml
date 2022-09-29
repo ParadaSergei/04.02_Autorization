@@ -1,0 +1,46 @@
+﻿<Window x:Class="WpfAutorization.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAutorization"
+        mc:Ignorable="d"
+        HorizontalAlignment="Center"
+        VerticalAlignment="Center"
+        ResizeMode="NoResize"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"/>
+            <RowDefinition/>
+            <RowDefinition Height="100"/>
+        </Grid.RowDefinitions>
+
+        <Grid Background="#b97891">
+            <TextBlock Text="Авторизация"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Center"
+                       FontSize="50"
+                       Grid.ColumnSpan="1" Grid.RowSpan="1"/>
+        </Grid>
+        <Grid Grid.Row="1" Background="#b97891" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="300"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <TextBlock Text="Login:" FontSize="40" Margin="0,20,20,20" HorizontalAlignment="Left" />
+            <TextBlock Text="Password:" FontSize="40" Margin="0,20,20,20" Grid.Row="2" />
+            <TextBox Grid.Row="0" Grid.Column="1" FontSize="10" Margin="40" Background="#b0b6b6" Name="lgBox"/>
+            <PasswordBox Grid.Row="1" Grid.Column="1" FontSize="10" Margin="40" Background="#b0b6b6" Name="passBox"  PasswordChanged="passBox_PasswordChanged"  />
+        </Grid>
+        <Grid Grid.Row="2" Background="#b97891">
+            <Button Margin="200,10,200,10" Content="Вход" FontSize="40" Background="GreenYellow" Click="Button_Click"/>
+        </Grid>
+    </Grid>
+</Window>
