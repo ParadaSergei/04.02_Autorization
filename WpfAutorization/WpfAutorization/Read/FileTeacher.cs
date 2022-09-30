@@ -8,16 +8,16 @@ using System.Threading.Tasks;
 
 namespace WpfAutorization
 {
-    class FileTeacher
+    public class FileTeacher
     {
         public ObservableCollection<User> FileTeach()
         {
 
                 var teacherlist = new ObservableCollection<User>();
 
-                using (StreamReader read = new StreamReader(@"..\..\Document\Teachers.txt"))
+                using (StreamReader reader = new StreamReader(@"..\..\Document\Teachers.txt"))
                 {
-                    foreach (var item in read.ReadToEnd().Split('\n'))
+                    foreach (var item in reader.ReadToEnd().Split('\n'))
                     {
                         var arrayString = item.Split(',');
                         if (arrayString[0] != "ID")
@@ -25,7 +25,8 @@ namespace WpfAutorization
                             var user = new User()
                             {
                                 ID = arrayString[0],
-                                Teachers = arrayString[1],
+                                FirstName = arrayString[1],
+                                LastName = arrayString[2],
                             };
                               teacherlist.Add(user);
                         }

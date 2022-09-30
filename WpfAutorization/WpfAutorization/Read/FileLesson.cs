@@ -24,10 +24,11 @@ namespace WpfAutorization
                         if (arrayString[0] != "ID")
                         {
                             var user = new User()
-                            { 
-                                Object = arrayString[0],
-                            };
+                            {
+                                ID = arrayString[0],
+                                Name = arrayString[1],
 
+                            };
                             lessonlist.Add(user);
                         }
                     }
