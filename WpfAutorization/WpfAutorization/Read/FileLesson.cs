@@ -5,16 +5,17 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using WpfAutorization.Model;
 
 namespace WpfAutorization
 {
 
    public class FileLesson
     {
-        public ObservableCollection<User> FileLess()
+        public ObservableCollection<Lessons> FileLess()
         {
             {
-                var lessonlist = new ObservableCollection<User>();
+                var lessonlist = new ObservableCollection<Lessons>();
 
                 using (StreamReader reader = new StreamReader(@"..\..\Document\Lesson.txt"))
                 {
@@ -23,13 +24,13 @@ namespace WpfAutorization
                         var arrayString = item.Split('?');
                         if (arrayString[0] != "ID")
                         {
-                            var user = new User()
+                            Lessons lessonser = new Lessons()
                             {
                                 ID = arrayString[0],
                                 Name = arrayString[1],
 
                             };
-                            lessonlist.Add(user);
+                            lessonlist.Add(lessonser);
                         }
                     }
                 }

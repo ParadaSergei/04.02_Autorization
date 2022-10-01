@@ -7,23 +7,9 @@ using System.Threading.Tasks;
 namespace WpfAutorization
 {
     public class User: MainWindow
-    {
-        public string ID { get; set; }
+    {     
         public string Login { get; set; }
-        public string Password { get; set; }
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
-        public string Name { get; set; }
-        public string Object
-        {
-            get => Name;
-            set { }
-        }
-        public string Teachers
-        {
-            get => FirstName + " " + LastName;
-            set { }
-        }     
+        public string Password { get; set; } 
         public static ObservableCollection<User> GetUsers()
         {
             var userList = new ObservableCollection<User>()

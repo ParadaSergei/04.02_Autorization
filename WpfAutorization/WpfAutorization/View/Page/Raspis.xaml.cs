@@ -24,16 +24,11 @@ namespace WpfAutorization
     {
         private readonly FileLesson _fileLess;
         private readonly FileTeacher _fileTeach;
-        private readonly MainWindowsViewModel _mainViewModel;
-
         public Raspis()  
         {
-            InitializeComponent();
-             DataContext = _mainViewModel = new MainWindowsViewModel();
+            InitializeComponent();           
             _fileLess = new FileLesson();
-            _fileLess.FileLess();
             _fileTeach = new FileTeacher();
-            _fileTeach.FileTeach();
             comboBoxs1.ItemsSource = _fileLess.FileLess();
             comboBoxs2.ItemsSource = _fileTeach.FileTeach();
         }             

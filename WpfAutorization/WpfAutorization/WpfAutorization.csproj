@@ -57,6 +57,8 @@
     </ApplicationDefinition>
     <Compile Include="Command\DelegateCommand.cs" />
     <Compile Include="Core\AuthHelper.cs" />
+    <Compile Include="Model\Lessons.cs" />
+    <Compile Include="Model\Teachers.cs" />
     <Compile Include="Read\FileTeacher.cs" />
     <Compile Include="Read\FileLesson.cs" />
     <Compile Include="ViewModel\BaseViewModel.cs" />

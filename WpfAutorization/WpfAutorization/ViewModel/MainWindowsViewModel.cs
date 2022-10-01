@@ -39,7 +39,7 @@ namespace WpfAutorization.ViewModel
         }
         public void Automatick(object obj)
         {
-          //  Information = GroupModel.Group + " ," + GroupModel.Block;
+           // Information = User. + " ," + GroupModel.Block;
         }
     }
 }

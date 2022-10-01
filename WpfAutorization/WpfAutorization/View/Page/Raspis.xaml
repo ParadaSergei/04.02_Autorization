@@ -16,7 +16,7 @@
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
             <Label Content="Выберите учителя:" FontSize="30" HorizontalAlignment="Left" VerticalAlignment="Center"/>
-            <ComboBox  Grid.Column="1" Background="Aqua" Margin="30" Name="comboBoxs1" DisplayMemberPath="Name" />
+            <ComboBox  Grid.Column="1" Background="Aqua" Margin="30" Name="comboBoxs1" DisplayMemberPath="Teacher"/>
         </Grid>
         <Grid Grid.Row="1">
             <Grid.ColumnDefinitions>
@@ -24,21 +24,12 @@
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
             <Label Content="Выберите предмет:"  FontSize="30" HorizontalAlignment="Left" VerticalAlignment="Center"/>
-            <ComboBox Grid.Column="1" Margin="30" Name="comboBoxs2" DisplayMemberPath="Object"/>
+            <ComboBox Grid.Column="1" Margin="30" Name="comboBoxs2" DisplayMemberPath="Less"/>
             <Button  Content="Добавить" FontSize="15" Grid.Column="1" HorizontalAlignment="Right" VerticalAlignment="Bottom" Command="{Binding}"/>
         </Grid>
         <Grid Grid.Row="2">
-            <TextBlock Background="Gray" Margin="5" />
+            <TextBlock Background="Gray" Margin="8" Name="listTextView"/>
         </Grid>
-
-        <Grid >
-
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition/>
-                <ColumnDefinition/>
-            </Grid.ColumnDefinitions>
-        </Grid>
-
         <Grid.RowDefinitions>
             <RowDefinition/>
             <RowDefinition/>
