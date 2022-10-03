@@ -55,3 +55,23 @@ C:\Задачки\Новая папка\04.02_Autorization-main\WpfAutorization\
 C:\Задачки\Новая папка\04.02_Autorization-main\WpfAutorization\WpfAutorization\obj\Debug\WpfAutorization.csproj.CoreCompileInputs.cache
 C:\Задачки\Новая папка\04.02_Autorization-main\WpfAutorization\WpfAutorization\obj\Debug\WpfAutorization.exe
 C:\Задачки\Новая папка\04.02_Autorization-main\WpfAutorization\WpfAutorization\obj\Debug\WpfAutorization.pdb
+C:\Задачки на C#\Новая папка\04.02_Autorization-main\WpfAutorization\WpfAutorization\bin\Debug\WpfAutorization.exe.config
+C:\Задачки на C#\Новая папка\04.02_Autorization-main\WpfAutorization\WpfAutorization\bin\Debug\WpfAutorization.exe
+C:\Задачки на C#\Новая папка\04.02_Autorization-main\WpfAutorization\WpfAutorization\bin\Debug\WpfAutorization.pdb
+C:\Задачки на C#\Новая папка\04.02_Autorization-main\WpfAutorization\WpfAutorization\obj\Debug\WpfAutorization.csproj.AssemblyReference.cache
+C:\Задачки на C#\Новая папка\04.02_Autorization-main\WpfAutorization\WpfAutorization\obj\Debug\View\Windows\GlavWindow.g.cs
+C:\Задачки на C#\Новая папка\04.02_Autorization-main\WpfAutorization\WpfAutorization\obj\Debug\View\Windows\MainWindow.g.cs
+C:\Задачки на C#\Новая папка\04.02_Autorization-main\WpfAutorization\WpfAutorization\obj\Debug\View\Page\Raspis.g.cs
+C:\Задачки на C#\Новая папка\04.02_Autorization-main\WpfAutorization\WpfAutorization\obj\Debug\App.g.cs
+C:\Задачки на C#\Новая папка\04.02_Autorization-main\WpfAutorization\WpfAutorization\obj\Debug\WpfAutorization_MarkupCompile.cache
+C:\Задачки на C#\Новая папка\04.02_Autorization-main\WpfAutorization\WpfAutorization\obj\Debug\WpfAutorization_MarkupCompile.lref
+C:\Задачки на C#\Новая папка\04.02_Autorization-main\WpfAutorization\WpfAutorization\obj\Debug\View\Windows\GlavWindow.baml
+C:\Задачки на C#\Новая папка\04.02_Autorization-main\WpfAutorization\WpfAutorization\obj\Debug\View\Windows\MainWindow.baml
+C:\Задачки на C#\Новая папка\04.02_Autorization-main\WpfAutorization\WpfAutorization\obj\Debug\View\Page\Raspis.baml
+C:\Задачки на C#\Новая папка\04.02_Autorization-main\WpfAutorization\WpfAutorization\obj\Debug\WpfAutorization.g.resources
+C:\Задачки на C#\Новая папка\04.02_Autorization-main\WpfAutorization\WpfAutorization\obj\Debug\WpfAutorization.Properties.Resources.resources
+C:\Задачки на C#\Новая папка\04.02_Autorization-main\WpfAutorization\WpfAutorization\obj\Debug\WpfAutorization.csproj.GenerateResource.cache
+C:\Задачки на C#\Новая папка\04.02_Autorization-main\WpfAutorization\WpfAutorization\obj\Debug\WpfAutorization.csproj.CoreCompileInputs.cache
+C:\Задачки на C#\Новая папка\04.02_Autorization-main\WpfAutorization\WpfAutorization\obj\Debug\WpfAutorization.exe
+C:\Задачки на C#\Новая папка\04.02_Autorization-main\WpfAutorization\WpfAutorization\obj\Debug\WpfAutorization.pdb
+C:\Задачки на C#\Новая папка\04.02_Autorization-main\WpfAutorization\WpfAutorization\obj\Debug\GeneratedInternalTypeHelper.g.cs
