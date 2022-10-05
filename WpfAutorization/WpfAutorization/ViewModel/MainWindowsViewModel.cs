@@ -13,16 +13,8 @@ namespace WpfAutorization.ViewModel
     class MainWindowsViewModel : BaseViewModel
     {
         private User _userChecklist;
-        private string _information;  
-        public User Usered
-        {
-            get => _userChecklist;
-            set
-            {
-                _userChecklist = value;
-                OnPrpertyChanged(nameof(Usered));
-            }
-        }
+        private string _information;
+        private User Usered;
         public string Information
         {
             get => _information;
