@@ -13,9 +13,7 @@ namespace WpfAutorization.ViewModel
     class MainWindowsViewModel : BaseViewModel
     {
         private User _userChecklist;
-        private string _information;
-        private readonly MainWindowsViewModel _mainViewModel;
-
+        private string _information;  
         public User Usered
         {
             get => _userChecklist;
@@ -37,11 +35,6 @@ namespace WpfAutorization.ViewModel
         }
         public ICommand AuthCommand { get; }
 
-        internal void Automatick()
-        {
-            throw new NotImplementedException();
-        }
-
         public MainWindowsViewModel()
         {
             AuthCommand = new DelegateCommand(Automatick);
@@ -61,7 +54,6 @@ namespace WpfAutorization.ViewModel
             }
 
         }
-
         private void Close()
         {
             this.Close();
