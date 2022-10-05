@@ -14,7 +14,6 @@ namespace WpfAutorization.ViewModel
     {
         private User _userChecklist;
         private string _information;
-        private User Usered;
         public string Information
         {
             get => _information;
@@ -35,7 +34,7 @@ namespace WpfAutorization.ViewModel
         public void Automatick(object obj)
         {
             GlavWindow glavWindow = new GlavWindow();
-            if (AuthHelper.AuthHelp(Usered.Login, Usered.Password) == true)
+            if (AuthHelper.AuthHelp(_userChecklist.Login, _userChecklist.Password) == true)
             {
                 glavWindow.Show();
                 this.Close();
