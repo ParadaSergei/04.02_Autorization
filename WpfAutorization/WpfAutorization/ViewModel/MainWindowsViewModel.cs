@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Linq;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 using System.Windows.Input;
 using WpfAutorizationINFolder.Command;
 
@@ -12,6 +14,8 @@ namespace WpfAutorization.ViewModel
     {
         private User _userChecklist;
         private string _information;
+        private readonly MainWindowsViewModel _mainViewModel;
+
         public User Usered
         {
             get => _userChecklist;
@@ -32,6 +36,12 @@ namespace WpfAutorization.ViewModel
             }
         }
         public ICommand AuthCommand { get; }
+
+        internal void Automatick()
+        {
+            throw new NotImplementedException();
+        }
+
         public MainWindowsViewModel()
         {
             AuthCommand = new DelegateCommand(Automatick);
@@ -39,7 +49,22 @@ namespace WpfAutorization.ViewModel
         }
         public void Automatick(object obj)
         {
-           // Information = User. + " ," + GroupModel.Block;
+            GlavWindow glavWindow = new GlavWindow();
+            if (AuthHelper.AuthHelp(Usered.Login, Usered.Password) == true)
+            {
+                glavWindow.Show();
+                this.Close();
+            }
+            else
+            {
+                MessageBox.Show("Нет аккаунта!");
+            }
+
+        }
+
+        private void Close()
+        {
+            this.Close();
         }
     }
 }

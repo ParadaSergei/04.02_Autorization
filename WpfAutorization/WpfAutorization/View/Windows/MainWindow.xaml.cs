@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using WpfAutorization.ViewModel;
 
 namespace WpfAutorization
 {
@@ -20,29 +21,11 @@ namespace WpfAutorization
     /// </summary>
     public partial class MainWindow : Window
     {
-
+        
         public MainWindow()
         {
             InitializeComponent();
 
-        }
-
-
-        private void passBox_PasswordChanged(object sender, RoutedEventArgs e)
-        { }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            GlavWindow glavWindow = new GlavWindow();
-            if (AuthHelper.AuthHelp(lgBox.Text, passBox.Password) == true)
-            {
-                glavWindow.Show();
-                this.Close();
-            }
-            else
-            {
-                MessageBox.Show("Нет аккаунта!");
-            }
         }
     }
 }
