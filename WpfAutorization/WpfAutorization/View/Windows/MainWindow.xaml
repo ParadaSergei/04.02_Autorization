@@ -38,13 +38,14 @@
                 <RowDefinition/>
                 <RowDefinition/>
             </Grid.RowDefinitions>
+    
             <TextBlock Text="Login:" FontSize="40" Margin="0,20,20,20" HorizontalAlignment="Left" />
             <TextBlock Text="Password:" FontSize="40" Margin="0,20,20,20" Grid.Row="2" />
             <TextBox Grid.Row="0" Grid.Column="1" FontSize="10" Margin="40" Background="#b0b6b6" Name="lgBox" />
-            <PasswordBox Grid.Row="1" Grid.Column="1" FontSize="10" Margin="40" Background="#b0b6b6" Name="passBox"/>
+            <PasswordBox Grid.Row="1" Grid.Column="1" FontSize="10" Margin="40" Background="#b0b6b6" Name="passBox"  />
         </Grid>
         <Grid Grid.Row="2" Background="#089147">
-            <Button Margin="200,10,200,10" Content="Вход" FontSize="40" Background="GreenYellow" Command="{Binding Automatick}"/>
+            <Button Margin="200,10,200,10" Content="Вход" FontSize="40" Background="GreenYellow" Command="{Binding AuthCommand}" />
         </Grid>
     </Grid>
 </Window>

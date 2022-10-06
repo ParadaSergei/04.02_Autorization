@@ -13,28 +13,33 @@ namespace WpfAutorization.ViewModel
     class MainWindowsViewModel : BaseViewModel
     {
         private User _userChecklist;
-        private string _information;
-        public string Information
+
+        public User Usered
         {
-            get => _information;
+            get => _userChecklist;
             set
             {
-                _information = value;
-                OnPrpertyChanged(nameof(Information))
-                ;
+                _userChecklist = value;
+                OnPrpertyChanged(nameof(Usered));
             }
         }
+
         public ICommand AuthCommand { get; }
 
         public MainWindowsViewModel()
         {
-            AuthCommand = new DelegateCommand(Automatick);
+            AuthCommand = new DelegateCommand(Automatik);
             _userChecklist = new User();
         }
-        public void Automatick(object obj)
+
+
+
+
+        public void Automatik(object obj)
         {
+
             GlavWindow glavWindow = new GlavWindow();
-            if (AuthHelper.AuthHelp(_userChecklist.Login, _userChecklist.Password) == true)
+            if (AuthHelper.AuthHelp(Usered.lgBox.Text, Usered.passBox.Password) == true)
             {
                 glavWindow.Show();
                 this.Close();
@@ -45,9 +50,17 @@ namespace WpfAutorization.ViewModel
             }
 
         }
+
         private void Close()
         {
             this.Close();
         }
     }
 }
+#region
+//if (string.IsNullOrEmpty(Usered.Login) || string.IsNullOrEmpty(Usered.Password))
+//{
+//    MessageBox.Show("Данные не введены");
+//}
+//else if (_authHelper())
+#endregion
