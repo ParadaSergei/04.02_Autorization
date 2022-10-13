@@ -12,15 +12,13 @@ namespace WpfAutorizationINFolder.Command
         private Action<object> _execute;
         private Func<object, bool> _canAxecute;
 
-        public event EventHandler CanExecuteChanged;
-
         public DelegateCommand(Action<object> execute, Func<object, bool> canExecute)
         {
             _execute = execute;
             _canAxecute = canExecute;
         }
         public DelegateCommand(Action<object> execute) : this(execute, null) { }
-        public event EventHandler CanExecuteCanged
+        public event EventHandler CanExecuteChanged
         {
             add => CommandManager.RequerySuggested += value;
             remove => CommandManager.RequerySuggested -= value;

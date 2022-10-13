@@ -30,5 +30,9 @@ namespace WpfAutorization
 
         }
 
+        private void passBox_PasswordChanged(object sender, RoutedEventArgs e)
+        {
+            (DataContext as MainWindowsViewModel).Usered.Password = passBox.Password;
+        }
     }
 }

@@ -10,7 +10,7 @@ using WpfAutorizationINFolder.Command;
 
 namespace WpfAutorization.ViewModel
 {
-    class MainWindowsViewModel : BaseViewModel
+    public class MainWindowsViewModel : BaseViewModel
     {
         private User _userChecklist;
 
@@ -39,7 +39,7 @@ namespace WpfAutorization.ViewModel
         {
 
             GlavWindow glavWindow = new GlavWindow();
-            if (AuthHelper.AuthHelp(Usered.lgBox.Text, Usered.passBox.Password) == true)
+            if (AuthHelper.AuthHelp(Usered.Login, Usered.Password) == true)
             {
                 glavWindow.Show();
                 this.Close();

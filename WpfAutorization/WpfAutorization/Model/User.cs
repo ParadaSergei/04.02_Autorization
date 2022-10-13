@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 namespace WpfAutorization
 {
-    public class User: MainWindow
+    public class User
     {     
         public string Login { get; set; }
         public string Password { get; set; }
@@ -25,6 +25,7 @@ namespace WpfAutorization
                 Login = "qwe",
                 Password = "12345"
             }
+
         };
             return userList;
         }

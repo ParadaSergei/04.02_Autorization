@@ -95,3 +95,24 @@ C:\Задачки на C#\!. Autorization\WpfAutorization\WpfAutorization\obj\De
 C:\Задачки на C#\!. Autorization\WpfAutorization\WpfAutorization\obj\Debug\WpfAutorization.csproj.CoreCompileInputs.cache
 C:\Задачки на C#\!. Autorization\WpfAutorization\WpfAutorization\obj\Debug\WpfAutorization.exe
 C:\Задачки на C#\!. Autorization\WpfAutorization\WpfAutorization\obj\Debug\WpfAutorization.pdb
+D:\ИС-32\04.02_Autorization-MVVM\04.02_Autorization-MVVM\WpfAutorization\WpfAutorization\bin\Debug\WpfAutorization.exe.config
+D:\ИС-32\04.02_Autorization-MVVM\04.02_Autorization-MVVM\WpfAutorization\WpfAutorization\bin\Debug\WpfAutorization.exe
+D:\ИС-32\04.02_Autorization-MVVM\04.02_Autorization-MVVM\WpfAutorization\WpfAutorization\bin\Debug\WpfAutorization.pdb
+D:\ИС-32\04.02_Autorization-MVVM\04.02_Autorization-MVVM\WpfAutorization\WpfAutorization\obj\Debug\WpfAutorization.csproj.AssemblyReference.cache
+D:\ИС-32\04.02_Autorization-MVVM\04.02_Autorization-MVVM\WpfAutorization\WpfAutorization\obj\Debug\WpfAutorization.csproj.SuggestedBindingRedirects.cache
+D:\ИС-32\04.02_Autorization-MVVM\04.02_Autorization-MVVM\WpfAutorization\WpfAutorization\obj\Debug\View\Windows\GlavWindow.g.cs
+D:\ИС-32\04.02_Autorization-MVVM\04.02_Autorization-MVVM\WpfAutorization\WpfAutorization\obj\Debug\View\Windows\MainWindow.g.cs
+D:\ИС-32\04.02_Autorization-MVVM\04.02_Autorization-MVVM\WpfAutorization\WpfAutorization\obj\Debug\View\Page\Raspis.g.cs
+D:\ИС-32\04.02_Autorization-MVVM\04.02_Autorization-MVVM\WpfAutorization\WpfAutorization\obj\Debug\App.g.cs
+D:\ИС-32\04.02_Autorization-MVVM\04.02_Autorization-MVVM\WpfAutorization\WpfAutorization\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\ИС-32\04.02_Autorization-MVVM\04.02_Autorization-MVVM\WpfAutorization\WpfAutorization\obj\Debug\WpfAutorization_MarkupCompile.cache
+D:\ИС-32\04.02_Autorization-MVVM\04.02_Autorization-MVVM\WpfAutorization\WpfAutorization\obj\Debug\WpfAutorization_MarkupCompile.lref
+D:\ИС-32\04.02_Autorization-MVVM\04.02_Autorization-MVVM\WpfAutorization\WpfAutorization\obj\Debug\View\Windows\GlavWindow.baml
+D:\ИС-32\04.02_Autorization-MVVM\04.02_Autorization-MVVM\WpfAutorization\WpfAutorization\obj\Debug\View\Windows\MainWindow.baml
+D:\ИС-32\04.02_Autorization-MVVM\04.02_Autorization-MVVM\WpfAutorization\WpfAutorization\obj\Debug\View\Page\Raspis.baml
+D:\ИС-32\04.02_Autorization-MVVM\04.02_Autorization-MVVM\WpfAutorization\WpfAutorization\obj\Debug\WpfAutorization.g.resources
+D:\ИС-32\04.02_Autorization-MVVM\04.02_Autorization-MVVM\WpfAutorization\WpfAutorization\obj\Debug\WpfAutorization.Properties.Resources.resources
+D:\ИС-32\04.02_Autorization-MVVM\04.02_Autorization-MVVM\WpfAutorization\WpfAutorization\obj\Debug\WpfAutorization.csproj.GenerateResource.cache
+D:\ИС-32\04.02_Autorization-MVVM\04.02_Autorization-MVVM\WpfAutorization\WpfAutorization\obj\Debug\WpfAutorization.csproj.CoreCompileInputs.cache
+D:\ИС-32\04.02_Autorization-MVVM\04.02_Autorization-MVVM\WpfAutorization\WpfAutorization\obj\Debug\WpfAutorization.exe
+D:\ИС-32\04.02_Autorization-MVVM\04.02_Autorization-MVVM\WpfAutorization\WpfAutorization\obj\Debug\WpfAutorization.pdb
