@@ -122,6 +122,11 @@
     <Resource Include="Document\Lesson.txt" />
     <Resource Include="Document\Teachers.txt" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="Document\lock.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Document\list_contact.ico" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

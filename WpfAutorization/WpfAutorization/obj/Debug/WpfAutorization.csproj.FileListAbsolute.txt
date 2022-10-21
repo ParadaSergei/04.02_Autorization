@@ -116,3 +116,23 @@ D:\ИС-32\04.02_Autorization-MVVM\04.02_Autorization-MVVM\WpfAutorization\WpfAu
 D:\ИС-32\04.02_Autorization-MVVM\04.02_Autorization-MVVM\WpfAutorization\WpfAutorization\obj\Debug\WpfAutorization.csproj.CoreCompileInputs.cache
 D:\ИС-32\04.02_Autorization-MVVM\04.02_Autorization-MVVM\WpfAutorization\WpfAutorization\obj\Debug\WpfAutorization.exe
 D:\ИС-32\04.02_Autorization-MVVM\04.02_Autorization-MVVM\WpfAutorization\WpfAutorization\obj\Debug\WpfAutorization.pdb
+E:\Задачки на C#\04.02_Autorization-MVVM\WpfAutorization\WpfAutorization\bin\Debug\WpfAutorization.exe.config
+E:\Задачки на C#\04.02_Autorization-MVVM\WpfAutorization\WpfAutorization\bin\Debug\WpfAutorization.exe
+E:\Задачки на C#\04.02_Autorization-MVVM\WpfAutorization\WpfAutorization\bin\Debug\WpfAutorization.pdb
+E:\Задачки на C#\04.02_Autorization-MVVM\WpfAutorization\WpfAutorization\obj\Debug\WpfAutorization.csproj.AssemblyReference.cache
+E:\Задачки на C#\04.02_Autorization-MVVM\WpfAutorization\WpfAutorization\obj\Debug\View\Windows\GlavWindow.g.cs
+E:\Задачки на C#\04.02_Autorization-MVVM\WpfAutorization\WpfAutorization\obj\Debug\View\Windows\MainWindow.g.cs
+E:\Задачки на C#\04.02_Autorization-MVVM\WpfAutorization\WpfAutorization\obj\Debug\View\Page\Raspis.g.cs
+E:\Задачки на C#\04.02_Autorization-MVVM\WpfAutorization\WpfAutorization\obj\Debug\App.g.cs
+E:\Задачки на C#\04.02_Autorization-MVVM\WpfAutorization\WpfAutorization\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\Задачки на C#\04.02_Autorization-MVVM\WpfAutorization\WpfAutorization\obj\Debug\WpfAutorization_MarkupCompile.cache
+E:\Задачки на C#\04.02_Autorization-MVVM\WpfAutorization\WpfAutorization\obj\Debug\WpfAutorization_MarkupCompile.lref
+E:\Задачки на C#\04.02_Autorization-MVVM\WpfAutorization\WpfAutorization\obj\Debug\View\Windows\GlavWindow.baml
+E:\Задачки на C#\04.02_Autorization-MVVM\WpfAutorization\WpfAutorization\obj\Debug\View\Windows\MainWindow.baml
+E:\Задачки на C#\04.02_Autorization-MVVM\WpfAutorization\WpfAutorization\obj\Debug\View\Page\Raspis.baml
+E:\Задачки на C#\04.02_Autorization-MVVM\WpfAutorization\WpfAutorization\obj\Debug\WpfAutorization.g.resources
+E:\Задачки на C#\04.02_Autorization-MVVM\WpfAutorization\WpfAutorization\obj\Debug\WpfAutorization.Properties.Resources.resources
+E:\Задачки на C#\04.02_Autorization-MVVM\WpfAutorization\WpfAutorization\obj\Debug\WpfAutorization.csproj.GenerateResource.cache
+E:\Задачки на C#\04.02_Autorization-MVVM\WpfAutorization\WpfAutorization\obj\Debug\WpfAutorization.csproj.CoreCompileInputs.cache
+E:\Задачки на C#\04.02_Autorization-MVVM\WpfAutorization\WpfAutorization\obj\Debug\WpfAutorization.exe
+E:\Задачки на C#\04.02_Autorization-MVVM\WpfAutorization\WpfAutorization\obj\Debug\WpfAutorization.pdb

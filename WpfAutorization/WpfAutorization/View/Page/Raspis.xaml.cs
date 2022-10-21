@@ -10,7 +10,6 @@ using System.Windows.Controls;
 using System.Windows.Data;
 using System.Windows.Documents;
 using System.Windows.Input;
-using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
@@ -31,9 +30,12 @@ namespace WpfAutorization
         {
             InitializeComponent();           
             _fileLess = new FileLesson();
-            _fileTeach = new FileTeacher();   
+            _fileTeach = new FileTeacher();
+            fileLes();
+            fileTeachs();
             comboBoxs1.ItemsSource = _fileLess.FileLess();
             comboBoxs2.ItemsSource = _fileTeach.FileTeach();
+
             list = new ObservableCollection<string> { };
         }
 
@@ -43,6 +45,14 @@ namespace WpfAutorization
             _users.listHols = comboBoxs2.Text + "  |  " + comboBoxs1.Text;
             list.Add(_users.listHols);
             listTextView.ItemsSource = list;
+        }
+        private async void fileLes()
+        {
+            await _fileLess.FileLess();
+        }
+        private async void fileTeachs()
+        {
+            await _fileTeach.FileTeach();
         }
     }
 }

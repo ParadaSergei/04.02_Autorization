@@ -6,10 +6,11 @@
         xmlns:local="clr-namespace:WpfAutorization"
         xmlns:ViewModel="clr-namespace:WpfAutorization.ViewModel" x:Class="WpfAutorization.MainWindow"
         mc:Ignorable="d"
+        
         HorizontalAlignment="Center"
         VerticalAlignment="Center"
         ResizeMode="NoResize"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Autorization" Height="450" Width="800">
     <Window.DataContext>
         <ViewModel:MainWindowsViewModel/>
     </Window.DataContext>
@@ -49,7 +50,7 @@
             <PasswordBox Grid.Row="1" Grid.Column="1" FontSize="10" Margin="40" Background="#b0b6b6" x:Name="passBox" PasswordChanged="passBox_PasswordChanged" />
         </Grid>
         <Grid Grid.Row="2" Background="#089147">
-            <Button Margin="200,10,200,10" Content="Вход" FontSize="40" Background="GreenYellow" Command="{Binding AuthCommand}" />
+            <Button Margin="200,10,200,10" Content="Вход" FontSize="40" Background="GreenYellow" Command="{Binding AuthCommand}" Click="Button_Click" />
         </Grid>
     </Grid>
 </Window>

@@ -11,29 +11,34 @@ namespace WpfAutorization
 {
     public class FileTeacher
     {
-        public ObservableCollection<Teachers> FileTeach()
+        public async Task<string> FileTeach()
         {
 
-                var teacherlist = new ObservableCollection<Teachers>();
+            var teacherlist = new ObservableCollection<Teachers>();
 
-                using (StreamReader reader = new StreamReader(@"..\..\Document\Teachers.txt"))
+            using (StreamReader reader = new StreamReader(@"..\..\Document\Teachers.txt"))
+            {
+                var hr = await reader.ReadToEndAsync();
+                List<Teachers> sfw = new List<Teachers>();
+                foreach (var item in reader.ReadToEnd().Split('\n'))
                 {
-                    foreach (var item in reader.ReadToEnd().Split('\n'))
+                    var arrayString = item.Split(',');
+                    if (arrayString[0] != "ID")
                     {
-                        var arrayString = item.Split(',');
-                        if (arrayString[0] != "ID")
+                        Teachers teacherser = new Teachers()
                         {
-                          Teachers teacherser = new Teachers()
-                            {
-                                ID = arrayString[0],
-                                FirstName = arrayString[1],
-                                LastName = arrayString[2],
-                            };
-                              teacherlist.Add(teacherser);
-                        }
+                            ID = arrayString[0],
+                            FirstName = arrayString[1],
+                            LastName = arrayString[2],
+                        };
+                        teacherlist.Add(teacherser);
                     }
                 }
-                return teacherlist;
+                var user = sfw.FirstOrDefault(x => x.FirstName == "" && x.LastName == "");
+                return hr;
             }
+
+        }
+    
     }
 }

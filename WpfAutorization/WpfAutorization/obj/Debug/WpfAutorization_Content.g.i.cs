@@ -8,7 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("files/lesson.txt")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("files/teachers.txt")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("document/phone_list_book_contact_icon_229449.ico")]
 
 

@@ -19,13 +19,17 @@ namespace WpfAutorization
     /// </summary>
     public partial class GlavWindow : Window
     {
+        
         public GlavWindow()
         {
             InitializeComponent();
+           
+            
         }
         private void Button_Raspisan(object sender, RoutedEventArgs e)
         {
             mainFrame.Navigate(new Raspis());
         }
+        
     }
 }

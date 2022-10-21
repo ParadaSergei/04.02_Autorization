@@ -12,13 +12,16 @@ namespace WpfAutorization
 
    public class FileLesson
     {
-        public ObservableCollection<Lessons> FileLess()
+
+        public async Task<string> FileLess()
         {
             {
                 var lessonlist = new ObservableCollection<Lessons>();
 
                 using (StreamReader reader = new StreamReader(@"..\..\Document\Lesson.txt"))
                 {
+                    var sf = await reader.ReadToEndAsync();
+                    List<Lessons> sfw = new List<Lessons>();
                     foreach (var item in reader.ReadToEnd().Split('\n'))
                     {
                         var arrayString = item.Split('?');
@@ -33,8 +36,11 @@ namespace WpfAutorization
                             lessonlist.Add(lessonser);
                         }
                     }
-                }
-                return lessonlist;
+                    var user = sfw.FirstOrDefault(x => x.Less == "" && x.Name == "");
+                    return sf;
+
+
+                }              
             }
             
         }
